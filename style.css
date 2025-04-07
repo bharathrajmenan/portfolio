@@ -3,11 +3,23 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: 'MyFont';
+  src: url('./CSRandle-Regular_demo.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'god';
+  src: url('./TheGodfather-v2.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   font-family: "Poppins", sans-serif;
    overflow-x: hidden;
-  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'MyFont'; 
   background-color: #f3edba;
   color: rgb(0, 0, 0);
 }
@@ -39,6 +51,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  
 }
 
 .nav-links {
@@ -53,6 +66,7 @@ a {
   color: rgb(0, 0, 0);
   text-decoration: none;
   text-decoration-color: rgb(252, 248, 248);
+  font-family:'MyFont' ;
 }
 
 a:hover {
@@ -63,8 +77,9 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 3rem;
   opacity: .85;
+ font-family: 'god';
 }
 
 .logo:hover {
@@ -159,6 +174,7 @@ section {
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+
 }
 
 .section-container {
@@ -332,6 +348,10 @@ a .btn {
   bottom: 2.5rem;
 }
 
+.text-container{
+
+  font-family: 'MyFont2';
+}
 .details-container {
   padding: 1.5rem;
   flex: 1;
@@ -524,6 +544,7 @@ footer p {
   padding: 0 15px 15px;
   color: #666;
   font-size: 1em;
+  font-family: 'Mynewfont'; 
 }
 
 .view-button {
