@@ -8,8 +8,8 @@ body {
   font-family: "Poppins", sans-serif;
    overflow-x: hidden;
   /* font-family: 'Nunito', sans-serif; */
-  background-color: #325674;
-  color: white;
+  background-color: #f3edba;
+  color: rgb(0, 0, 0);
 }
 
 html {
@@ -17,7 +17,7 @@ html {
 }
 
 p {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 /* TRANSITION */
@@ -46,11 +46,11 @@ nav {
   list-style: none;
   font-size: 1.5rem;
   opacity: .7;
-  color: #ddd;
+  color: #000000;
 }
 
 a {
-  color: rgb(253, 252, 252);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   text-decoration-color: rgb(252, 248, 248);
 }
@@ -335,8 +335,8 @@ a .btn {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: rgb(73, 73, 69);
-  border-radius: 2rem;
+  background: rgb(255, 255, 255);
+  border-radius: 1rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
@@ -361,7 +361,7 @@ a .btn {
 }
 
 .experience-sub-title {
-  color: rgb(255, 254, 254);
+  color: rgb(0, 0, 0);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
