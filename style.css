@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 @font-face {
   font-family: 'MyFont';
   src: url('./CSRandle-Regular_demo.otf') format('opentype');
@@ -16,6 +17,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 body {
   font-family: "Poppins", sans-serif;
    overflow-x: hidden;
@@ -33,6 +35,7 @@ p {
 }
 
 /* TRANSITION */
+
 
 a,
 .btn {
