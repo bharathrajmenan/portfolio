@@ -70,6 +70,7 @@ a {
   text-decoration: none;
   text-decoration-color: rgb(252, 248, 248);
   font-family:'MyFont' ;
+  font-size: 1.8rem;
 }
 
 a:hover {
@@ -80,7 +81,7 @@ a:hover {
 }
 
 .logo {
-  font-size: 3rem;
+  font-size: 3.5rem;
   opacity: .85;
  font-family: 'god';
 }
